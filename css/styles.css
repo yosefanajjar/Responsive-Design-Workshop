@@ -35,12 +35,41 @@ body {
   width: 100%;
 }
 /*////////////////////////////Site Logo & Nav & Media Queries///////////////////*/
-.top {
+@media only screen and (max-width: 1209px){
+  .top {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1210) and (max-width: 1300px){
+  .top {
   width: 284px;
   float: left;
   margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1301px){
+  .top {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
 /*////////////////////////////////////Site Logo/////////////////////////////////*/
+@media only screen and (max-width: 1209px){
+  .site-logo{
+    width: 284px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .site-logo-title {
   position: absolute;
   display: block;
@@ -48,19 +77,61 @@ body {
   margin-top: -171px;
 }
 /*//////////////////////////////////////Nav/////////////////////////////////////*/
-.nav-link {
-  width: 284px;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+@media only screen and (max-width: 1209px){
+  .nav {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-link {
+    width: calc(33% - 20px);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    float: left;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
+@media only screen and (min-width: 1210px) and (max-width: 1300px){
+  .nav {
+    width: 284px;
+  }
+  .nav-link {
+    width: 284px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1301px){
+  .nav {
+    width:60%;
+    float: right;
+    padding-top: 35px;
+  }
+  .nav-link {
+    width: calc(33% - 20px);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    float: left;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .site-logo {
+    float: left;
+  }
+}
 .nav-link-hyper-sub {
   text-align: center;
   font-size: 14px;
@@ -85,15 +156,27 @@ body {
   color: red;
 }
 /*//////////////////////////////////////Header//////////////////////////////////*/
-.header {
-  margin-top: 100px;
-  width: 60%;
-  float: right;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: #2d2d2d;
+@media only screen and (max-width: 1300px){
+  .header {
+    margin-top: 100px;
+    width: 60%;
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #2d2d2d;
+  }
 }
 
+@media only screen and (min-width: 1301px){
+  .header {
+    margin-top: 20px;
+    width: 60%;
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #2d2d2d;
+  }
+}
 .header-title {
   text-align: center;
   font-size: 28px;
@@ -104,40 +187,80 @@ body {
   line-height: 21px;
 }
 /*//////////////////////////////////////Grid///////////////////////////////////*/
-.grid {
-  width: 60%;
-  float: right;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 10px;
+@media only screen and (max-width: 1500px){
+  .grid {
+    width: 60%;
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+
+  .grid-title-line {
+    width: 33%;
+    float: left;
+    padding-top: 7px;
+  }
+
+  .grid-title-text {
+    font-size: 22px;
+    width: 33%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 206px;
+    text-align: center;
+    color: #2d2d2d;
+  }
+
+  .grid-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .grid-content-tile {
+    width: calc(33% - 20px);
+    float: left;
+    margin: 10px;
+  }
 }
 
-.grid-title-line {
-  width: 33%;
-  float: left;
-  padding-top: 7px;
-}
+@media only screen and (min-width: 1501px){
+  .grid {
+    width: 60%;
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
 
-.grid-title-text {
-  font-size: 22px;
-  width: 33%;
-  float: left;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  min-width: 206px;
-  text-align: center;
-  color: #2d2d2d;
-}
+  .grid-title-line {
+    width: 33%;
+    float: left;
+    padding-top: 7px;
+  }
 
-.grid-content {
-  width: 100%;
-  margin-top: 20px;
-}
+  .grid-title-text {
+    font-size: 22px;
+    width: 33%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 206px;
+    text-align: center;
+    color: #2d2d2d;
+  }
 
-.grid-content-tile {
-  width: calc(33% - 20px);
-  float: left;
-  margin: 10px;
+  .grid-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .grid-content-tile {
+    width: calc(16% - 20px);
+    float: left;
+    margin: 10px;
+  }
 }
 
 .grid-content-tile-img {
