@@ -156,7 +156,18 @@ body {
   color: red;
 }
 /*//////////////////////////////////////Header//////////////////////////////////*/
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1209px) {
+  .header {
+    width: 80%;
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2d2d2d;
+  }
+}
+
+@media only screen and (min-width: 1210px) and (max-width: 1300px){
   .header {
     margin-top: 100px;
     width: 60%;
@@ -187,7 +198,79 @@ body {
   line-height: 21px;
 }
 /*//////////////////////////////////////Grid///////////////////////////////////*/
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 757px){
+  .grid {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid-title-line {
+    width: calc((100% - 206px)/2);
+    float: left;
+    padding-top: 7px;
+  }
+  .grid-title-text {
+    font-size: 22px;
+    width: 33%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 206px;
+    text-align: center;
+    color: #2d2d2d;
+  }
+
+  .grid-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .grid-content-tile {
+    width: calc(33% - 20px);
+    float: left;
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1209px){
+  .grid {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-title-line {
+    width: 33%;
+    float: left;
+    padding-top: 7px;
+  }
+
+  .grid-title-text {
+    font-size: 22px;
+    width: 33%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 206px;
+    text-align: center;
+    color: #2d2d2d;
+  }
+
+  .grid-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .grid-content-tile {
+    width: calc(33% - 20px);
+    float: left;
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 1210px) and (max-width: 1500px){
   .grid {
     width: 60%;
     float: right;
@@ -288,25 +371,48 @@ body {
   color: #890101;
 }
 /*/////////////////////////////////////Footer//////////////////////////////////*/
-.footer {
-  background-image: url("../img/ornament.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  width: 60%;
-  float: right;
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
+@media only screen and (max-width: 1209px){
+  .footer {
+    background-image: url("../img/ornament.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .footer-text:nth-of-type(1) {
+    padding-top: 40px;
+    font-size: 10px
+  }
 }
 
-.footer-text {
-  font-size: 10px;
+@media only screen and (min-width: 1210px){
+  .footer {
+    background-image: url("../img/ornament.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 60%;
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .footer-text:nth-of-type(1) {
+    margin-top: 40px;
+    font-size: 10px
+  }
 }
 
-.footer-text:nth-of-type(1) {
-  margin-top: 40px;
-  font-size: 10px
-}
 
 a {
   text-decoration: none;
