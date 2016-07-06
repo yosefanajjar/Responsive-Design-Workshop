@@ -109,6 +109,7 @@ body {
   float: right;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 10px;
 }
 
 .grid-title-line {
@@ -130,6 +131,7 @@ body {
 
 .grid-content {
   width: 100%;
+  margin-top: 20px;
 }
 
 .grid-content-tile {
@@ -164,9 +166,30 @@ body {
 }
 /*/////////////////////////////////////Footer//////////////////////////////////*/
 .footer {
+  background-image: url("../img/ornament.png");
+  background-repeat: no-repeat;
+  background-position: top;
   width: 60%;
   float: right;
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
+}
+
+.footer-text {
+  font-size: 10px;
+}
+
+.footer-text:nth-of-type(1) {
+  margin-top: 40px;
+  font-size: 10px
+}
+
+a {
+  text-decoration: none;
+  color: #890101;
+}
+
+a:hover {
+  color: red;
 }
