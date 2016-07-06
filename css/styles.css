@@ -41,11 +41,44 @@ body {
   margin-top: -171px;
 }
 /*//////////////////////////////////////Nav/////////////////////////////////////*/
+.nav {
+  width: 284px;
+}
 
+.nav-link {
+  width: 150px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.nav-link-sub {
+  text-align: center;
+  font-size: 14px;
+  font-variant: small-caps;
+  margin: 0px;
+}
 
+.nav-link-main {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  margin: 0px;
+}
 
+.nav-link-hyper {
+  text-decoration: none;
+  color: #890101;
+}
 
+.nav-link-hyper:hover {
+  color: red;
+}
 /*//////////////////////////////////////Header//////////////////////////////////*/
 
 
