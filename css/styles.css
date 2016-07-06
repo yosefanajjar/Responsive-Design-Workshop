@@ -25,12 +25,21 @@ body {
   background-size: cover;
 }
 
+.rag {
+  width: 100%;
+}
 /*////////////////////////////////////Site Logo/////////////////////////////////*/
+.site-logo {
+  width: 284px;
+  margin: 20px;
+}
 
-
-
-
-
+.site-logo-title {
+  position: absolute;
+  display: block;
+  margin-left: 65px;
+  margin-top: -171px;
+}
 /*//////////////////////////////////////Nav/////////////////////////////////////*/
 
 
