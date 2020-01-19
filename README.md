@@ -1,5 +1,6 @@
-**Author**: @yosefanajjar
-**Maintainer**: @MohammedYehia
+**Author**: [@yosefanajjar](https://github.com/yosefanajjar)
+
+**Maintainer**: [@MohammedYehia](https://github.com/MohammedYehia)
 
 # Welcome To The Responsive Design Workshop!
 This workshop is designed for **helping you out with understanding responsive design** and how to apply it in action using **relative units**, **media queries** and **responsive images** in CSS, throughout the workshop, you will learn about these things and in the end, there will be some helpful **exercise** so you can practice them in a good way.
@@ -191,8 +192,13 @@ In the frame is **w3school's** Band template, you can check the demo [here](http
 
 ## Usefull Resources :books: 
 [The CSS Workshop - Relative Units](https://thecssworkshop.com/lessons/relative-units)
+
 [GeeksForGeeks - What is the difference between screen and only](https://www.geeksforgeeks.org/what-is-the-difference-between-screen-and-only-screen-in-media-queries/)
+
 [The Content Works - Media Queries](https://thecontentworks.uk/media-queries/)
+
 [FROONT - 9 basic principles of responsive web design](https://blog.froont.com/9-basic-principles-of-responsive-web-design/)
+
 [Smashing Magazine - Responsive Web Design - What It Is And How To Use It](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
+
 [Rithmschool - Responsive Design](https://www.rithmschool.com/courses/intermediate-css-bootstrap/responsive-design)
