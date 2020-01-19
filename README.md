@@ -34,7 +34,7 @@ Here is a simple graph of how this looks like
 
 Media queries are CSS instructions that are important for creating responsive web pages. Media queries allow content to adapt to various screen resolutions, with different CSS instructions being used for different screen sizes
 
-```css=
+```css
 @media screen and (max-width: 600px) {
     /* Your styles go here */
 }
@@ -49,7 +49,7 @@ What's the difference between`max-width` and `min-width`?
 
  The `min-width` and `max-width` properties can be used together to create a media query that applies to screens within a rage
  
- ```css=
+ ```css
  @media (min-width: 600px) and (max-width: 900px) {
   /* Your styles go here */
  }
@@ -58,7 +58,7 @@ What's the difference between`max-width` and `min-width`?
  
 **Media query example**:
 
-```css=
+```css
 p {
     font-size: 24px;
 }
@@ -97,7 +97,7 @@ Here is a graph that shows how we would apply media queries to various devices
 
 **Quick Example**:
 
-```css=
+```css
 
 div {
     font-size: 10px;
@@ -126,7 +126,7 @@ There are two approaches to use images in your web page:
 When using images you want to make sure that they scale up and down or at least scale down so they don't look bad on smaller screens 
 
 To scale it both up and down, we set the width to 100%:
-```css=
+```css
 .responsive-img {
   width: 100%;
 }
@@ -134,7 +134,7 @@ To scale it both up and down, we set the width to 100%:
 
 To scale it only down, we set the max-width to 100%
 
-```css=
+```css
 .responsive-img {
   max-width: 100%;
 }
